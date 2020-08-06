@@ -5,7 +5,7 @@ interface Props {
   opacityLevel: number;
 }
 
-function LeftOpacityButton() {
+function LeftOpacityButton(props: Props) {
   return <div></div>;
 }
 
