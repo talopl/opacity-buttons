@@ -2,10 +2,15 @@ import React from "react";
 
 interface Props {
   color: string;
+  text: string;
 }
 
 function LeftOpacityButton(props: Props) {
-  return <div></div>;
+  const buttonStyles = {
+    backgroundColor: props.color,
+  };
+
+  return <div style={buttonStyles}>props.text</div>;
 }
 
 export default LeftOpacityButton;
