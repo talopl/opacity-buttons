@@ -3,6 +3,7 @@ import React from "react";
 interface Props {
   color: string;
   text: string;
+  onClick: () => void;
 }
 
 function LeftOpacityButton(props: Props) {
